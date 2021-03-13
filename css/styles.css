@@ -1,0 +1,58 @@
+body {
+  background-color: hsl(257, 40%, 49%);
+  background-image: url("../images/bg-desktop.svg");
+  color: #fff;
+}
+
+h1 {
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+p {
+  font-family: "Open Sans";
+  font-size: 16px!important;
+  font-weight: 400;
+}
+
+button {
+  background-color: #fff!important;
+  border-radius: 40px!important;
+  color: hsl(257, 40%, 49%)!important;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+button:hover {
+  background-color: hsl(300, 69%, 71%)!important;
+  color: #fff!important;
+}
+
+.circle {
+  border: solid 1px;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.circle:hover {
+  color: hsl(300, 69%, 71%)!important;
+  cursor: pointer;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 960px) {
+  body {
+    background-image: url("../images/bg-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
